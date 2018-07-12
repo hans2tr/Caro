@@ -11,6 +11,7 @@ public class BanCo {
 	private int[][] board;// ban co
 	private List<ViTriDanh> dsCacLa;// danh sach cac vi tri con
 	ViTriDanh viTri;
+	private int viTriX;
 
 	public List<ViTriDanh> getDsCacLa() {
 		return dsCacLa;
